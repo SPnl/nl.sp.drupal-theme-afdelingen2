@@ -41,7 +41,11 @@ h6 {
 	
 .rood { color: #f60000; }
 
-strong {font-weight:800;}
+strong {
+  font-family: "HelveticaNeueLTStd-Md", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+}
+
 blockquote { padding: .5em 1em; }
 label { color: #888; margin: 2px; font-size: 1em; font-weight: normal; }
 abbr { border-bottom: 1px dotted #aaa;}
