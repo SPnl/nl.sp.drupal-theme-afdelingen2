@@ -1,0 +1,33 @@
+
+#poster {
+  font-family: Impact;
+  line-height: 90%;
+  font-size: 64px;
+  word-break:break-all;
+}
+
+span.poster-tekst {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 424px;
+  overflow: hidden;
+-webkit-box-shadow: 5px 4px 10px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 4px 10px 1px rgba(0,0,0,0.75);
+box-shadow: 5px 4px 10px 1px rgba(0,0,0,0.75);
+}
+
+#primary #poster a, #primary #poster a:link, #primary #poster a:visited, #primary #poster a:active, #primary #poster a:hover {
+  text-decoration: none;
+}
+
+#poster .bezoeker-tekst {
+  color: #000;
+}
+
+#poster .afdeling-tekst {
+  color: #ff0000;
+}

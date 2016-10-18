@@ -1,0 +1,34 @@
+name = SP Afdelingen v2
+description = 2016 layout derived from SP.nl 2014 / pomordoro
+version = beta-1.0
+core = 7.x
+
+stylesheets[all][] = css/reset.css
+
+stylesheets[all][] = css/system/system.theme.css
+stylesheets[all][] = css/system/system.menus.css
+stylesheets[all][] = css/system/system.base.css
+
+stylesheets[all][] = css/structure.css
+stylesheets[all][] = css/fonts.css
+stylesheets[all][] = css/content.css
+stylesheets[all][] = css/hide.css
+stylesheets[all][] = fonts/SPruit-icons.css
+
+stylesheets[print][] = "css/print.css"
+
+scripts[] = 'js/afdelingen2.js'
+scripts[] = 'js/myfonts.js'
+scripts[] = 'js/readspeaker_exp_nl.js'
+
+regions[content] = Middenkolom
+regions[extra] = Onderaan middenkolom
+regions[sidebar_first] = Zijbalk links
+regions[sidebar_second] = Zijbalk rechts
+regions[header_banner] = Banner boven
+
+features[] = name
+features[] = logo
+features[] = favicon
+
+settings[afdelingen_type] = sp

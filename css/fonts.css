@@ -1,0 +1,13 @@
+/*= Fonts 
+----------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Impact';
+    src: url('impact/impact.eot');
+    src: url('impact/impact.eot?#iefix') format('embedded-opentype'),
+         url('impact/impact.woff') format('woff'),
+         url('impact/impact.ttf') format('truetype'),
+         url('impact/impact.svg#impact') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

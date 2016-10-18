@@ -1,0 +1,373 @@
+.node-type-verkiezing #container {
+  width: 768px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.node-type-verkiezing #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #f60000;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 1.9em 0;
+  border-bottom: 1px solid #f00;
+  z-index: 10;
+}
+
+.node-type-verkiezing #header .site-name {
+  text-align: center;
+  font-size: 5.2em;
+}
+
+.node-type-verkiezing #header .site-name a,
+.node-type-verkiezing #header .site-name a:visited {
+  color: #f60000;
+}
+
+.node-type-verkiezing #header .name-logo {
+  height: 50px;
+  width: 78px;
+  background: url('../images/SPnl-logo-small.png') no-repeat;
+  position: relative;
+  display: inline-block;
+}
+
+.node-type-verkiezing #header .name-text {
+  background: url('../images/SPnl-logo-small.png') no-repeat 0 11px;
+  padding-left: 78px;
+}	
+
+.node-type-verkiezing #header .slogan{
+  text-align: center;
+  font-size: 4em;
+}
+
+.node-type-verkiezing .content-tabs {
+  width: 768px;
+  padding-top: 100px;
+}
+
+.node-type-verkiezing #primary {
+  position: relative;
+  width: 100%; 
+  margin: 0;
+  padding-top: 130px; 
+}
+
+.node-type-verkiezing #footer {
+  position: relative;
+  background: none;
+  border-top: 1px solid #aaa; 
+  text-align: center;
+  padding: .72em 0;
+}
+
+.node-type-verkiezing #footer .menu {
+  overflow: hidden;
+  padding: 0 28px;
+}
+.node-type-verkiezing #footer .menu a {
+  display: block;
+  float: left;
+  color: #333;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 6px;
+
+}
+
+.node-type-verkiezing #footer .menu a:hover {
+  color: #f60000; 
+}
+
+.node-type-verkiezing #footer .copyright {
+  border: 1px solid #aaa;
+  width:16%;
+  font-size: 10px;
+  color: #aaa;
+  margin: .72em auto;
+  padding: 5px;
+  letter-spacing: 1px;
+  
+}
+
+.node-type-verkiezing li p {
+  display: block;
+}
+
+#primary .nav-tabs {
+  position: fixed;
+  top: 157px;
+  z-index: 10;
+  background-color: #fff;
+  margin: 0 0 1.4em 0; 
+  padding: 0;
+  border-bottom: 1px solid #f60000;
+  border-right: 1px solid #f60000;
+  border-left: 1px solid #f60000;
+  display: table;
+}
+
+#primary .nav-tabs li {
+display: table-cell;
+  margin: 0;
+  padding: 0;
+}
+
+#primary .nav-tabs li a {
+  display: inline-block; 
+  padding: .72em 1.06em;
+  font-size: 15px; 
+  font-weight: bold;
+  font-family: Helvetica, Arial, Sans-serif;
+  color: #f60000;
+  text-transform: uppercase;
+}
+
+#primary .nav-tabs li a:hover {
+  color: #333;
+}
+
+#primary .nav-tabs li.active a {
+  background: #f00; 
+  color: #fff;
+}
+
+#primary .kandidaat {
+  padding: 1em;
+  overflow: hidden;
+}
+
+#primary .view-display-id-achtergrondinformatie .kandidaat {
+  padding: 0;
+}
+
+#primary .view-display-id-lijst .kandidaat {
+  clear: left;
+}
+
+#primary .kandidaat.views-row-last {
+  border: none;
+}
+
+#primary .view-display-id-top10 .kandidaat {
+  width: 42%;
+  height: 210px;
+  float: left;
+  margin: 2%; 
+}
+
+#primary .kandidaat .profielfoto {
+  float: left;
+  margin-right: 1em;
+}
+
+#primary .kandidaat .naam {
+  color: #f00;
+}
+
+#primary .interface {width: 100%; overflow: hidden;}
+
+.chapter .title {color: #f00;}
+.chapter .content { padding: 1.4em; }
+
+.agenda-item {width: 27%; background: #eee; padding: 1em; margin: 1em; border-bottom: 1px solid #ccc; float: left;}
+.agenda-item .title {font-size: 1.4em; text-shadow: -1px -1px solid #fff;}
+
+.view-verkiezingsredenen .item {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+}
+
+.view-verkiezingsredenen .item.views-row-last {
+  border:  none;
+}
+
+#primary .section {
+  margin: 0 0 1.4em 0;
+  overflow: hidden;
+}
+
+
+#lijsttrekker {
+  background: #eee;
+  margin-left: 10px;
+}
+
+#nieuws {
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+#nieuws-titels {
+  width: 300px;
+  float: left;
+}
+
+#nieuws-berichten {
+  padding: 1em;
+  margin-left: 2em;
+  width: 388px;
+  float: left;
+}
+
+#nieuws-berichten .nieuws-item ul li {
+  background: url(/sites/all/themes/afdelingen/images/pijltje.gif) no-repeat .3em .5em;
+}
+
+#nieuws-titels ul,
+#nieuws-titels li {
+  padding: 0; margin: 0;
+}
+
+#nieuws-titels a {
+  display: block;
+  font-size: 12px;
+  padding: .4em;
+  border-bottom: 1px solid #ccc;
+}
+
+#nieuws-titels a:hover, #nieuws-titels .active a {
+  color: #fff;
+  background: #333;
+}
+
+#nieuws .views-row-last a {
+  border: none;
+}
+
+.chapter .content p {font-size: 1.2em;  line-height: 1.4em;}
+
+#primary #programma-index {
+  width: 100px;
+  float: left;
+}
+
+#primary #programma-chapters {
+  width: 600px;
+  float: left;
+}
+
+#primary #programma-index {
+  width: 240px;
+  float: right;
+
+}
+
+#programma-index h4 {
+  font-family: Arial; 
+  font-size: 12px;
+  color: #f60000;
+  font-weight: bold;
+  margin-bottom: .4em;
+  
+}
+#primary .nav-chapters{
+ margin: 0;
+ padding: 0;
+}
+
+#primary .nav-chapters li {
+  display: block;
+  overflow: hidden;
+}
+
+#primary .nav-chapters li a {
+  display: block;
+  padding: .4em;
+  border-bottom: 1px solid #ccc;
+  font-size: 11px;
+}
+
+#primary .nav-chapters li a:hover {
+  background: #333;
+  color: #fff;
+  border-color: #222; 
+}
+
+.nav-chapters .active a { color: #f60000; }
+
+#primary #programma-chapters {
+  width: 525px;
+  float: left;
+}
+
+#primary .standpunt {
+ padding: 1em .4em 1.4em .4em;
+ margin-bottom: 1.4em;
+ border-bottom: 1px solid #aaa;  
+ overflow: hidden;
+}
+
+#primary .standpunt.views-row-last {
+ border: none;
+}
+
+.kandidaat .icon .text{ display: none; }
+.kandidaat .icon      { width: 16px; height: 16px; background: #333; display: block; float: left; margin: .5px; }
+.kandidaat .icon-mail { background: transparent url(../images/social/16x16/email.png);}
+.kandidaat .icon-twitter { background: transparent url(../images/social/16x16/twitter.png);}
+.kandidaat .icon-linkedin { background: transparent url(../images/social/16x16/linkedin.png);}
+.kandidaat .icon-facebook { background: transparent url(../images/social/16x16/facebook.png); }
+.kandidaat .icon-email { background: transparent url(../images/social/16x16/facebook.png); }
+.kandidaat .icon-weblog { background: transparent url(../images/social/16x16/rss.png); }
+.kandidaat .icon-google-plus { background: transparent url(../images/social/16x16/google.png); }
+.kandidaat .social {clear: left;}
+.kandidaat .foto-en-social {float: left;}
+
+#to-top a, #to-normal a {color: #f60000; font-weight: bold;}
+#to-top {
+  position: relative;
+  padding: 5px; 
+  float: left;
+}
+
+#to-normal {padding: 5px; float: right;}
+
+.achtergrond-item {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  overflow: hidden;
+  z-index: 11;
+}
+
+.achtergrond-item .content-wrapper {
+  position: fixed;
+  top: 10%;
+  bottom: 10%;
+  width: 368px;
+  margin-left: -334px;
+  left: 50%;
+  background-color: #fff;
+  padding: 20px 150px;
+  overflow-y: auto;
+  z-index: 11;
+}
+
+.achtergrond-item a.close-button {
+  position: absolute;
+  right: 20px;
+}
+
+.kandidaat .meer-over {
+  padding-top: 5px;
+  clear: both;
+}
+
+.kandidaat .meer-over a {
+  color: #f60000;
+}
+
+
+#lijsttrekker blockquote {
+  font-size: 1.4em;
+  color: #222;
+}
